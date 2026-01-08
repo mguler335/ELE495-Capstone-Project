@@ -1,0 +1,120 @@
+# -*- coding: utf-8 -*-
+from flask import Flask, render_template, Response, stream_with_context
+import os
+import json
+import time
+import subprocess
+import sys
+
+app = Flask(__name__)
+LOG_FILE = "config/commands.json"
+STATUS_LOG_FILE = "config/status_logs.json"
+
+def yorumla_komut(komut_dict):
+    if "komut" not in komut_dict:
+        if "uyari" in komut_dict:
+            return f"Söylediklerini tam anlayamadým: \"{komut_dict['uyari']}\""
+        elif "hata" in komut_dict:
+            return f"Hata: {komut_dict['hata']}"
+        return json.dumps(komut_dict, ensure_ascii=False)
+
+    komut = komut_dict["komut"]
+    hiz = komut_dict.get("hiz", 100)
+    kosul = komut_dict.get("kosul", "")
+    aci = komut_dict.get("aci", 90)
+
+    if komut == "ileri_git":
+        if kosul == "engel_algilayana_kadar":
+            return f"?? Engel algýlanana kadar {hiz} hýzla ileri gidiliyor."
+        else:
+            return f"?? {kosul} boyunca {hiz} hýzla ileri gidiliyor."
+    elif komut == "geri_git":
+        if kosul == "engel_algilayana_kadar":
+            return f"?? Engel algýlanana kadar {hiz} hýzla geri gidiliyor."
+        else:
+            return f"?? {kosul} boyunca {hiz} hýzla geri gidiliyor."
+    elif komut == "sola_don":
+        return f"?? Sola doðru {aci}° dönülüyor."
+    elif komut == "saga_don":
+        return f"?? Saða doðru {aci}° dönülüyor."
+    elif komut == "tank_donus_sola":
+        return f"?? Tank modu ile sola {aci}° dönülüyor."
+    elif komut == "tank_donus_saga":
+        return f"?? Tank modu ile saða {aci}° dönülüyor."
+    elif komut == "dur":
+        return "? Duruluyor."
+
+    return f"Bilinmeyen komut: {komut_dict}"
+
+@app.route('/')
+def index():
+    return render_template("index.html")
+
+@app.route('/stream')
+def stream():
+    def event_stream():
+        last_mtime = 0
+        cumulative_commands = []
+        while True:
+            try:
+                mtime = os.path.getmtime(LOG_FILE)
+                if mtime != last_mtime:
+                    last_mtime = mtime
+                    with open(LOG_FILE, "r", encoding="utf-8") as f:
+                        komutlar = json.load(f)
+
+                    for komut in komutlar:
+                        if komut not in cumulative_commands:
+                            mesaj = yorumla_komut(komut)
+                            yield f"data: {mesaj}\n\n"
+                            cumulative_commands.append(komut)
+            except Exception as e:
+                yield f"data: ? Hata: {str(e)}\n\n"
+            time.sleep(1)
+    return Response(stream_with_context(event_stream()), mimetype="text/event-stream")
+
+@app.route('/status-stream')
+def status_stream():
+    def status_event_stream():
+        last_mtime = 0
+        last_size = 0
+        while True:
+            try:
+                if os.path.exists(STATUS_LOG_FILE):
+                    mtime = os.path.getmtime(STATUS_LOG_FILE)
+                    file_size = os.path.getsize(STATUS_LOG_FILE)
+                    
+                    if mtime != last_mtime or file_size != last_size:
+                        last_mtime = mtime
+                        last_size = file_size
+                        
+                        with open(STATUS_LOG_FILE, "r", encoding="utf-8") as f:
+                            logs = json.load(f)
+                        
+                        # Send only the latest 5 messages
+                        recent_logs = logs[-5:] if len(logs) > 5 else logs
+                        for log in recent_logs:
+                            timestamp = log.get('timestamp', '')
+                            message = log.get('message', '')
+                            if message:
+                                yield f"data: [{timestamp}] {message}\n\n"
+                else:
+                    yield f"data: [INFO] Ses kayýt sistemi henüz baþlatýlmadý\n\n"
+            except Exception as e:
+                yield f"data: [ERROR] Status log okuma hatasý: {str(e)}\n\n"
+            time.sleep(1)
+    return Response(stream_with_context(status_event_stream()), mimetype="text/event-stream")
+
+@app.route('/start-main')
+def start_main():
+    try:
+        if sys.platform.startswith("win"):
+            subprocess.Popen(["python", "src/main.py"], creationflags=subprocess.CREATE_NEW_CONSOLE)
+        else:
+            subprocess.Popen(["python3", "src/main.py"])
+        return "? main.py baþarýyla baþlatýldý!"
+    except Exception as e:
+        return f"? Hata oluþtu: {str(e)}"
+
+if __name__ == '__main__':
+    app.run(debug=True, host="0.0.0.0", port=5000)

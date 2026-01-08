@@ -1,0 +1,402 @@
+[
+  {
+    "timestamp": "2025-07-13 02:04:03",
+    "message": "1"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:03",
+    "message": "93.0"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:05",
+    "message": "['1', 'metre', 'boyunca']"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:05",
+    "message": "1"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:05",
+    "message": "93.0"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:05",
+    "message": "Gyro kalibrasyonu... Lütfen robotu sabit tut."
+  },
+  {
+    "timestamp": "2025-07-13 02:04:06",
+    "message": "Z gyro offset: -0.00 deg/s"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 0.0°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 0.0°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 0.0°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 0.2°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 0.8°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 10.1°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 20.1°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 30.4°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 40.0°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 50.6°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:08",
+    "message": "Angle: 60.1°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:09",
+    "message": "Angle: 80.6°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:09",
+    "message": "sola 90° dönüş tamamlandı. Final angle: 95.82°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:09",
+    "message": "Final overshoot detected: 95.8° > 90°, correcting..."
+  },
+  {
+    "timestamp": "2025-07-13 02:04:09",
+    "message": "Final correction completed. New angle: 91.97°"
+  },
+  {
+    "timestamp": "2025-07-13 02:04:09",
+    "message": "✅ Komutlar tamamlandı, JSON dosyası temizlendi."
+  },
+  {
+    "timestamp": "2025-07-13 02:39:20",
+    "message": "Varsayılan mikrofon kullanılacak."
+  },
+  {
+    "timestamp": "2025-07-13 02:39:20",
+    "message": "Ortam gürültüsü ayarlanıyor, lütfen bir saniye sessiz olun..."
+  },
+  {
+    "timestamp": "2025-07-13 02:39:21",
+    "message": "Hazır! Lütfen konuşmaya başlayın."
+  },
+  {
+    "timestamp": "2025-07-13 02:39:28",
+    "message": "Kayıt durdu. Ses dosyası kaydediliyor ve işleniyor..."
+  },
+  {
+    "timestamp": "2025-07-13 02:39:28",
+    "message": "Ses başarıyla '../data/recorded_sound.wav' olarak kaydedildi."
+  },
+  {
+    "timestamp": "2025-07-13 02:39:34",
+    "message": "1"
+  },
+  {
+    "timestamp": "2025-07-13 02:39:35",
+    "message": "emir"
+  },
+  {
+    "timestamp": "2025-07-13 02:39:36",
+    "message": "✅ JSON dosyası başarıyla kaydedildi: /home/bitirme/Desktop/ELE-495-Grup-8/config/commands.json"
+  },
+  {
+    "timestamp": "2025-07-13 02:39:36",
+    "message": "response: ```json\n[\n    {\n        \"komut\": \"saga_don\",\n        \"hiz\": 100,\n        \"kosul\": \"engele 50 cm kalana kadar\",\n        \"aci\": 90\n    },\n    {\n        \"komut\": \"ileri_git\",\n        \"hiz\": 100,\n        \"kosul\": \"engele 50 cm kalana kadar\",\n        \"aci\": 0\n    }\n]\n```\n\nEvet, anlaşıldı! Önce sağa döneceğim, sonra da önümdeki engele 50 cm kala duracağım. Umarım çarpmam, yoksa yine tamirciye gitmek zorunda kalırım! \n\n \n cleaned: Evet, anlaşıldı! Önce sağa döneceğim, sonra da önümdeki engele 50 cm kala duracağım. Umarım çarpmam, yoksa yine tamirciye gitmek zorunda kalırım!"
+  },
+  {
+    "timestamp": "2025-07-13 02:39:39",
+    "message": "Audio file saved successfully"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:09",
+    "message": "Varsayılan mikrofon kullanılacak."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:09",
+    "message": "Ortam gürültüsü ayarlanıyor, lütfen bir saniye sessiz olun..."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:10",
+    "message": "Hazır! Lütfen konuşmaya başlayın."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:19",
+    "message": "Kayıt durdu. Ses dosyası kaydediliyor ve işleniyor..."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:19",
+    "message": "Ses başarıyla '../data/recorded_sound.wav' olarak kaydedildi."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:26",
+    "message": "1"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:27",
+    "message": "emir"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:29",
+    "message": "✅ JSON dosyası başarıyla kaydedildi: /home/bitirme/Desktop/ELE-495-Grup-8/config/commands.json"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:29",
+    "message": "response: ```json\n[\n    {\n        \"uyari\": \"Su komutu anlamadim: 360 derece etrafına dön\"\n    },\n    {\n        \"komut\": \"saga_don\",\n        \"hiz\": 100,\n        \"kosul\": \"engele 50 cm kalana kadar\",\n        \"aci\": 90\n    }\n]\n```\n\nAh beynim yandı! Etrafımda 360 derece dönmek... Sanırım biraz fazla karmaşık bir istek oldu benim için. Ama merak etme, sağa dönme konusunda gayet başarılıyım! Umarım bu dönüşler seni istediğin yere götürür, aksi takdirde yine buradayım!\n\n \n cleaned: Ah beynim yandı! Etrafımda 360 derece dönmek... Sanırım biraz fazla karmaşık bir istek oldu benim için. Ama merak etme, sağa dönme konusunda gayet başarılıyım! Umarım bu dönüşler seni istediğin yere götürür, aksi takdirde yine buradayım!"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:32",
+    "message": "Audio file saved successfully"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:50",
+    "message": "Gyro kalibrasyonu... Lütfen robotu sabit tut."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:51",
+    "message": "Z gyro offset: 0.07 deg/s"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:51",
+    "message": "Gyro kalibrasyonu... Lütfen robotu sabit tut."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:52",
+    "message": "Z gyro offset: 0.05 deg/s"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 0.0°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 0.0°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 0.1°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 0.3°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 0.8°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 10.5°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 30.4°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 40.5°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:54",
+    "message": "Angle: 50.6°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:55",
+    "message": "Angle: 61.0°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:55",
+    "message": "Angle: 70.6°/90°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:55",
+    "message": "saga 90° dönüş tamamlandı. Final angle: 93.58°"
+  },
+  {
+    "timestamp": "2025-07-13 02:45:55",
+    "message": "Final overshoot detected: 93.6° > 90°, correcting..."
+  },
+  {
+    "timestamp": "2025-07-13 02:45:55",
+    "message": "Final correction completed. New angle: 91.77°"
+  },
+  {
+    "timestamp": "2025-07-13 02:46:44",
+    "message": "Varsayılan mikrofon kullanılacak."
+  },
+  {
+    "timestamp": "2025-07-13 02:46:44",
+    "message": "Ortam gürültüsü ayarlanıyor, lütfen bir saniye sessiz olun..."
+  },
+  {
+    "timestamp": "2025-07-13 02:46:45",
+    "message": "Hazır! Lütfen konuşmaya başlayın."
+  },
+  {
+    "timestamp": "2025-07-13 02:46:54",
+    "message": "Kayıt durdu. Ses dosyası kaydediliyor ve işleniyor..."
+  },
+  {
+    "timestamp": "2025-07-13 02:46:54",
+    "message": "Ses başarıyla '../data/recorded_sound.wav' olarak kaydedildi."
+  },
+  {
+    "timestamp": "2025-07-13 02:47:01",
+    "message": "1"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:02",
+    "message": "emir"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:04",
+    "message": "✅ JSON dosyası başarıyla kaydedildi: /home/bitirme/Desktop/ELE-495-Grup-8/config/commands.json"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:04",
+    "message": "response: ```json\n[\n    {\n        \"komut\": \"ileri_git\",\n        \"hiz\": 100,\n        \"kosul\": \"engele 50 cm kalana kadar\",\n        \"aci\": 0\n    },\n    {\n        \"komut\": \"geri_git\",\n        \"hiz\": 100,\n        \"kosul\": \"1 saniye boyunca\",\n        \"aci\": 0\n    }\n]\n```\n\nTamamdır, istediğin gibi \"engel görene kadar ileri git, sonra bir saniye boyunca geri git\" komutlarını JSON formatına çevirdim. Umarım engele çarpmadan geri geri gidebilirsin! Dikkatli ol, olur mu? Daha önce de benzer şeyler istemiştin, sanki biraz maceraperest ruhlusun. Bu arada, hız belirtmediğin için varsayılan hızı kullandım.\n\n \n cleaned: Tamamdır, istediğin gibi \"engel görene kadar ileri git, sonra bir saniye boyunca geri git\" komutlarını JSON formatına çevirdim. Umarım engele çarpmadan geri geri gidebilirsin! Dikkatli ol, olur mu? Daha önce de benzer şeyler istemiştin, sanki biraz maceraperest ruhlusun. Bu arada, hız belirtmediğin için varsayılan hızı kullandım."
+  },
+  {
+    "timestamp": "2025-07-13 02:47:08",
+    "message": "Audio file saved successfully"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:31",
+    "message": "Gyro kalibrasyonu... Lütfen robotu sabit tut."
+  },
+  {
+    "timestamp": "2025-07-13 02:47:32",
+    "message": "Z gyro offset: 0.05 deg/s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:34",
+    "message": "Distance: 83.8cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:34",
+    "message": "Distance: 157.0cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:34",
+    "message": "Distance: 95.5cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:34",
+    "message": "Distance: 86.7cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 128.9cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 117.2cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 105.4cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 93.8cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 82.3cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 70.3cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 59.1cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:35",
+    "message": "Distance: 48.1cm"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:37",
+    "message": "Time: 0.1s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:37",
+    "message": "Time: 0.2s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:37",
+    "message": "Time: 0.2s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.3s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.4s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.4s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.5s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.6s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.7s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.7s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.8s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 0.9s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 1.0s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:38",
+    "message": "Time: 1.0s"
+  },
+  {
+    "timestamp": "2025-07-13 02:47:40",
+    "message": "✅ Komutlar tamamlandı, JSON dosyası temizlendi."
+  }
+]

@@ -1,0 +1,43 @@
+<\!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Araç Komutları</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f2f2f2; }
+    h1 { color: #333; }
+    button { padding: 10px 20px; font-size: 16px; margin-bottom: 20px; cursor: pointer; }
+    #log { background: #fff; padding: 15px; border-radius: 8px; max-height: 400px; overflow-y: auto; }
+    .entry { margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Canlı Araç Komut Günlüğü</h1>
+  <button onclick="startMain()">🎤 Komut Algılama (main.py) Başlat</button>
+  <div id="log"></div>
+
+  <script>
+    const logDiv = document.getElementById("log");
+    const stream = new EventSource("/stream");
+
+    stream.onmessage = function(e) {
+      const p = document.createElement("div");
+      p.className = "entry";
+      p.textContent = e.data;
+      logDiv.appendChild(p);
+      logDiv.scrollTop = logDiv.scrollHeight;
+      if (logDiv.children.length > 500) {
+        logDiv.removeChild(logDiv.firstChild);
+      }
+    };
+
+    function startMain() {
+      fetch("/start-main")
+        .then(res => res.text())
+        .then(msg => alert(msg))
+        .catch(err => alert("Bir hata oluştu: " + err));
+    }
+  </script>
+</body>
+</html>
+EOF < /dev/null

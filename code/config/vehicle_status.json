@@ -1,0 +1,262 @@
+[
+  {
+    "timestamp": "2025-07-13T02:21:15.850643",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T02:21:46.439532",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T02:21:50.876449",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T02:21:54.026246",
+    "state": "completed"
+  },
+  {
+    "timestamp": "2025-07-13T02:22:49.430770",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T02:23:23.720709",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T02:23:28.164744",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T02:23:31.234059",
+    "state": "completed"
+  },
+  {
+    "timestamp": "2025-07-13T02:38:00.793287",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T02:48:15.100232",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T02:55:23.457012",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T02:56:33.225754",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:00:47.124887",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:06:10.607605",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:07:06.456302",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:08:11.329131",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:10:11.712178",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:15:06.737650",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:20:01.626578",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:21:43.966900",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:25:35.978331",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:33:26.952063",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:33:59.714032",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T03:33:59.716211",
+    "state": "moving_backward"
+  },
+  {
+    "timestamp": "2025-07-13T03:34:02.532616",
+    "state": "idle"
+  },
+  {
+    "timestamp": "2025-07-13T03:34:02.533653",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T03:34:02.535842",
+    "state": "moving_forward"
+  },
+  {
+    "timestamp": "2025-07-13T03:34:05.203353",
+    "state": "idle"
+  },
+  {
+    "timestamp": "2025-07-13T03:34:05.205304",
+    "state": "completed"
+  },
+  {
+    "timestamp": "2025-07-13T03:40:29.479226",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T03:41:06.584376",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T03:41:06.586722",
+    "state": "geri_gidiliyor"
+  },
+  {
+    "timestamp": "2025-07-13T03:41:09.387796",
+    "state": "bekliyor"
+  },
+  {
+    "timestamp": "2025-07-13T03:41:09.388871",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T09:30:15.201866",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T09:30:25.707841",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T09:38:48.133229",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T09:39:19.457720",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T09:39:19.459373",
+    "state": "ileri_gidiliyor"
+  },
+  {
+    "timestamp": "2025-07-13T09:39:23.372837",
+    "state": "bekliyor"
+  },
+  {
+    "timestamp": "2025-07-13T09:39:23.375229",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T09:40:18.620041",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T09:40:49.716457",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T09:40:49.719245",
+    "state": "geri_gidiliyor"
+  },
+  {
+    "timestamp": "2025-07-13T09:40:52.481000",
+    "state": "bekliyor"
+  },
+  {
+    "timestamp": "2025-07-13T09:40:52.482159",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T09:41:06.055845",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T09:41:33.996548",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T09:47:11.994481",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T09:47:31.406823",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T09:49:09.139071",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T09:50:10.456079",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T12:47:56.405546",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T12:47:56.407201",
+    "state": "ileri_gidiliyor"
+  },
+  {
+    "timestamp": "2025-07-13T12:48:01.095911",
+    "state": "bekliyor"
+  },
+  {
+    "timestamp": "2025-07-13T12:48:01.097264",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T12:49:53.159441",
+    "state": "tamamlandi"
+  },
+  {
+    "timestamp": "2025-07-13T12:51:47.543884",
+    "state": "listening"
+  },
+  {
+    "timestamp": "2025-07-13T12:52:11.745261",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T12:52:11.748671",
+    "state": "ileri_gidiliyor"
+  },
+  {
+    "timestamp": "2025-07-13T12:52:14.559458",
+    "state": "bekliyor"
+  },
+  {
+    "timestamp": "2025-07-13T12:52:14.560960",
+    "state": "executing"
+  },
+  {
+    "timestamp": "2025-07-13T12:52:15.658687",
+    "state": "donuyor"
+  },
+  {
+    "timestamp": "2025-07-13T12:52:18.941865",
+    "state": "bekliyor"
+  },
+  {
+    "timestamp": "2025-07-13T12:52:18.950740",
+    "state": "tamamlandi"
+  }
+]

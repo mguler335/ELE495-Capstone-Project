@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2025-07-13T02:21:49.778164",
+    "task_type": "saga_don",
+    "command": {
+      "komut": "saga_don",
+      "hiz": 100,
+      "kosul": "engele 50 cm kalana kadar",
+      "aci": 90
+    },
+    "success": true,
+    "duration": 3.338637113571167
+  },
+  {
+    "timestamp": "2025-07-13T02:21:54.015234",
+    "task_type": "sola_don",
+    "command": {
+      "komut": "sola_don",
+      "hiz": 100,
+      "kosul": "engele 50 cm kalana kadar",
+      "aci": 90
+    },
+    "success": true,
+    "duration": 3.1387789249420166
+  },
+  {
+    "timestamp": "2025-07-13T02:23:27.066970",
+    "task_type": "saga_don",
+    "command": {
+      "komut": "saga_don",
+      "hiz": 100,
+      "kosul": "engele 50 cm kalana kadar",
+      "aci": 90
+    },
+    "success": true,
+    "duration": 3.34626841545105
+  },
+  {
+    "timestamp": "2025-07-13T02:23:31.224840",
+    "task_type": "sola_don",
+    "command": {
+      "komut": "sola_don",
+      "hiz": 100,
+      "kosul": "engele 50 cm kalana kadar",
+      "aci": 90
+    },
+    "success": true,
+    "duration": 3.0600907802581787
+  }
+]
