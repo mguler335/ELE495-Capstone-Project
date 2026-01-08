@@ -235,7 +235,7 @@ def main():
         data_dir = 'data'
         models_dir = 'models'
     
-    llm_api_key = "AIzaSyDAm4K_iBS-ptTHW8_YyW3kLWgjnMpzskA"
+    llm_api_key = "XXXXXXXXXXXXXXXXXXXXXX"
     
     #Ensure data directory exists
     os.makedirs(data_dir, exist_ok=True)
@@ -345,4 +345,5 @@ if __name__ == "__main__":
     sys.stdout = stdout_capture
     
     main()
+
     execute_commands(status_server)
